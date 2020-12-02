@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+@import url("https://use.typekit.net/lkm5eoa.css");
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: liberation-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+main{
+  min-height: 100vh;
+  padding-top: 25px;
+}
+.search-box .search-bar{
+  display:block;
+  width: 99%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255,255,255,0);
+  margin-top: -25px;
+  border-bottom: 3px solid rgba(197, 195, 192, 0.3);
+  font-size: 2rem;
+  
+}
+.search-box{
+  width: 100%;
+}
+.search-box:hover{
+  background-color: rgba(139, 139, 139, 0.1); 
+}
+.search-bar{
+  padding-left: 30px;
+}
+.location{
+  text-shadow: 2px 2px 6px #000000;
+  /* font-weight: 600; */
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4rem;
+  color: white ;
+}
+.weather-box{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.weather-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.weather-icon{
+  background-image: url(http://openweathermap.org/img/wn/10d@2x.png);
+  width: 100px ;
+  height: 100px ;
+}
+.weather{
+  align-content: center;
+  margin-left:50px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.temp{
+  position: absolute;
+  top: 300px;
+  color: rgba(255, 255, 255,.6) ;
+  font-size: 250px ;
+  z-index: 1;
+}
+.date{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 1.5rem;
+  color: white !important;
+  text-shadow: 2px 2px 6px #000000;
+}
+.time{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: black;
+}
+.icon{
+  position: relative;
+  
+  height: 300px;
+  width: 300px;
+  
+}
+.icons{
+  float: right;
+}
+.small-text{
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 230px; 
+}
+
+
+
